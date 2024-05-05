@@ -432,15 +432,16 @@
 
                                              /* section 2 */
   .c-f4{
-    height: 300px;
+    height: 275px;
     background-image: url(./Assets/img/section2-slide.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 50px;
   }  
   .section2B{
-    height: 300px;
-    border: 2px solid white;
+    height: 320px;
   }
   .section2B > h4{
     font-family: var(--font-family);
@@ -454,6 +455,7 @@
   .section2B > p{
     color: var(--text-color4);
     font-family: var(--font-family);
+    font-size: 0.9rem;
   }
 
                                                  /* section2B Buttons */
@@ -565,6 +567,23 @@
     color: var(--text-color4);
     border-color: var(--text-color4);
     cursor: pointer;
+  }
+  .section2B > .sec2-img{
+    height: 50px;
+    position: absolute;
+    left: 270px;
+    top: 190px;
+  }
+  .section2B > .sec2-img > img{
+    height: 90%;
+    position: absolute;
+    left: 130px;
+  }
+  .section2B > img{
+    height: 360px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
   }
 
   
