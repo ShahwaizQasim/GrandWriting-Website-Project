@@ -980,11 +980,154 @@
 /* section 6 */
 
 .c-f8{
-  height: 300px;
+  height: auto;
   background-image: url(./Assets/img/sec6-slider.png);
   background-size: cover;
   background-position: center;
-  background-position: center;
+  background-repeat: no-repeat;
+  padding-block: 60px;
+}
+.section6{
+  height: auto;
+}
+.section6A{
+  height: auto;
+  position: relative;
+}
+.section6A > h6{
+  color: var(--text-color4);
+  font-family: var(--font-family);
+  font-weight: 400 !important;
+  font-size: 1.6rem;
+}
+.section6A > h6 > span{
+  color: var(--text-color3);
+  font-weight: 600;
+}
+.section6A > p {
+  font-size: 1rem !important;
+  color: var(--text-color4);
+  font-family: var(--font-family);
+  margin-top: 15px;
+  padding-right: 60px;
+  font-weight: 500;
+}
+
+/* section 6 */
+.sec6-btn1 {
+  height: 35px;
+  width: 180px;
+  background-color: var(--text-color4);
+  border-radius: 8px;
+  color: var(--text-color2);
+  font-family: var(--font-family);
+  border: 2px solid var(--text-color3);
+  font-weight: 600;
+  font-size: 0.8rem;
+  position: relative;
+  z-index: 1; /* positive number se upler wala background piche chala jata   */
+  overflow: hidden;
+  transition: 0.4s;
+}
+.sec6-btn1::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: var(--text-color3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: translateX(-50%);
+  transition: 0.6s;
+}
+.sec6-btn1:hover::before {
+  transform: translateX(-100%);
+}
+
+/* after bad me */
+.sec6-btn1::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: var(--text-color3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: translateX(50%);
+  transition: 0.6s;
+}
+.sec6-btn1:hover::after {
+  transform: translateX(100%);
+}
+.sec6-btn1:hover {
+  color: var(--text-color3);
+  border-color: var(--text-color3);
+  cursor: pointer;
+}
+/* before & after for button 2 */
+.sec6-btn2 {
+  height: 35px;
+  width: 140px;
+  background-color: transparent;
+  border-radius: 8px;
+  color: var(--text-color4);
+  font-family: var(--font-family);
+  border: 2px solid var(--text-color4);
+  font-size: 0.9rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  font-weight: 500;
+  transition: 0.4s;
+}
+.sec6-btn2::before {
+  content: "";
+  height: 100%;
+  width: 50%;
+  background-color: var(--text-color1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: translateX(-100%);
+  transition: 0.6s;
+}
+.sec6-btn2:hover::before {
+  transform: translateX(0%) rotate(180deg);
+}
+
+/* after bad me */
+.sec6-btn2::after {
+  content: "";
+  height: 100%;
+  width: 50%;
+  background-color: var(--text-color1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  transform: translateX(100%);
+  transition: 0.6s;
+}
+.sec6-btn2:hover::after {
+  transform: translateX(0%) rotate(-180deg);
+}
+.sec6-btn2:hover {
+  color: var(--text-color4);
+  border-color: var(--text-color4);
+  cursor: pointer;
+}
+.sec6-img{
+  height: 60px;
+  width: 180px;
+  position: absolute;
+  top: 110px;
+  right: 30px;
+}
+.sec6-img > img{
+  height: 75%;
 }
 
 /* 
