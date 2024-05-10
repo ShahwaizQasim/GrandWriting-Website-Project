@@ -1350,5 +1350,66 @@
   margin-top: 10px;
 }
 
+/* section 9 */
+
+.c-f11{
+  height: auto;
+  padding-bottom: 40px;
+}
+.section9{
+  height: auto;
+}
+.section9 > h1 {
+  font-family: var(--font-family);
+  color: var(--text-color2);
+  text-align: center;
+  font-weight: 700;
+  margin-top: 35px;
+}
+.section9 > h1 > span {
+  color: var(--text-color1);
+}
+
+.section9A{
+  height: auto;
+}
+.section9A > h6{
+  height: 50px;
+  border: 2px solid #e5e5e5;
+  padding: 10px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-size: 0.8rem;
+}
+.section9A > p{
+  font-family: var(--font-family);
+  font-size: 0.7rem;
+  padding-left: 10px;
+  display: none;
+}
+.c-f12{
+    height: 500px;
+    background-image: url(./Assets/img/sec10-solider.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-block: 25px;
+
+}
+.section10 > h1 {
+  font-family: var(--font-family);
+  color: var(--text-color4);
+  text-align: center;
+  font-weight: 500;
+  margin-top: 35px;
+}
+.section10 > h1 > span {
+  color: var(--text-color1);
+}
+
+
 /* 
 @media screen and (max-width:){} */
