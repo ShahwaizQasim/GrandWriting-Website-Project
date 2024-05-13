@@ -1,0 +1,361 @@
+@media screen and (max-width:1290px) {
+    .section3-1 {
+       padding-left: 100px !important;
+    }
+    .section3-2 {
+        padding-left: 100px !important;
+    }
+    .section3A-image {
+        height: 180px;
+        width: 160px;
+        position: absolute;
+        left: 40px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .nav-btn1{
+        display: none;
+    }
+    .nav-btn2{
+        display: none;
+    }
+    .HideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+        position: absolute;
+        right: 40px;
+    }
+    .slider-logos2{
+        display: none;
+    }
+    .section1 > h1 {
+        font-size: 2.3rem;
+    }
+    .section2B > img {
+        display: none;
+    }
+    .section3-1 {
+        width: 70% !important;
+    }
+    .section3-2 {
+        width: 70% !important;   
+    }
+    .section3A-image {
+        height: 130px;
+        width: 140px;
+        position: absolute;
+        left: 100px;
+    }
+    .section4 > h6 {
+        font-size: 0.9rem !important;
+    }
+    .section5 > p {
+        padding-inline: 150px;
+    }
+    .sec6-img{
+        display: none;
+      }
+    }
+    .visa-country{
+       display: none;
+    }
+@media screen and (max-width: 840px) {
+    .slider1 > h1 {
+        font-size: 2.2rem;
+      }
+    .slider-h2 {
+        font-size: 2.2rem !important;
+      }
+    .slider2{
+        width: 65%;
+        padding-bottom: 20px;
+    }
+    .sec3-dis1 > img {
+        height: 80%;
+    }
+    .section2B > .sec2-img > img {
+        position: absolute;
+        left: 100px;
+    }
+    .section3-1 {
+        width: 70% !important;
+    }
+    .section3-2 {
+        width: 70% !important;   
+    }
+    .section3A-image {
+        height: 130px;
+        width: 140px;
+        position: absolute;
+        left: 80px;
+    }
+    .section5 > p {
+        padding-inline: 50px;
+    }
+    .section7 > h1 {
+        font-size: 2rem;
+    }
+    .sec8-dis > img{
+        height: 80%;
+    }
+    .sec8-dis2 > p{
+        padding-left: 10px;
+    }
+    .sec8-dis2 > h6{
+        padding-left: 10px;   
+    }
+    
+    .sec8-dis2 > img{
+        padding-left: 5px;
+    }
+    .sec10-inp{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .sec10-inp1{
+        height: 130px;
+        width: 85%;
+    }
+    .section10 > h1 {
+        font-size:2rem;
+    }
+    .footerC > ul > li > img{
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+    .footerC > ul > li > .footer-img{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:760px){
+    .sec10-inp{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .sec10-inp1{
+        height: 130px;
+        width: 55%;
+    }
+    .sec10-btn1{
+        position: absolute;
+        top: 410px;
+        right: 120px;
+    }
+}
+@media screen and (max-width:650px){
+    .slider2 > center > form > input {
+        width: 85%;
+        margin-top: 20px !important;
+        
+    }
+    .slider-btn3 {
+        margin-top: 20px;
+    }
+    .sec3-dis1 > img {
+        height: 80%;
+    }
+    .section3-1 {
+        width: 70% !important;
+    }
+    .section3-2 {
+        width: 70% !important;   
+    }
+    .section3A-image {
+        height: 130px;
+        width: 140px;
+        position: absolute;
+        left: 60px;
+    }
+    .section2B > .sec2-img {
+        display: none;
+    }
+    .section5 > p {
+        padding-inline: 30px;
+    }
+    .section7A{
+        padding-block: 50px;
+    }
+    .sec8-dis > img{
+        height: 75%;
+    }
+    .sec8-dis2 > p{
+        padding-left: 10px;
+        margin-top: 30px;
+        font-size: 0.7rem;
+    }
+    .sec8-dis2 > h6{
+        padding-left: 10px;   
+    }
+    
+    .sec8-dis2 > img{
+        padding-left: 10px;
+    }
+    .section9 > h1 {
+        font-size: 1.9rem;
+    }
+    .section9A > h6{
+        font-size:.9rem;
+    }
+    .sec10-inp{
+        width: 90%;
+    }
+    .sec10-inp1{
+        height: 130px;
+        width: 55%;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .slider1 > h1 {
+        font-size: 1.8rem;
+      }
+    .slider-h2 {
+        font-size: 1.8rem !important;
+      }
+    .slider-btn1 {
+        height: 40px;
+        font-size: 0.6rem;
+    }
+    .slider-btn2 {
+        height: 40px;
+        font-size: 0.6rem;
+      }
+    .section1 > h1 {
+        font-size: 1.8rem;
+    }
+    
+    .sec3-dis1 > img {
+        height: 80%;
+    }
+    .section3-1 {
+        width: 70% !important;
+    }
+    .section3-2 {
+        width: 70% !important;   
+    }
+    .section3A-image {
+        height: 100px;
+        width: 120px;
+        position: absolute;
+        left: 30px;
+        top: 60px;
+    }
+    .section4 > h2 {
+        font-size: 1.6rem;
+    }
+    .section5 > p {
+        padding-inline: 10px;
+    }
+    .table-heading{
+        font-size: 0.6rem;
+    }
+    .table-content{
+        font-size: 0.4rem;
+    }
+    .section7 > h1 {
+        font-size: 1.5rem !important;
+    }
+    .sec8-dis{
+        height: 200px;
+    }
+    .section8 > h1 {
+        font-size: 1.7rem;
+    }
+    .section8 > h1 {
+        font-size: 2rem;
+    }
+    .sec8-dis > img{
+        height: 55%;
+    }
+    .sec8-dis2 > p{
+        padding-left: 5px;
+        margin-top: 30px;
+        font-size: 0.6rem;
+    }
+    .sec8-dis2 > h6{
+        padding-left: 5px;   
+    }
+    .sec8-dis2 > img{
+        padding-left: 5px;
+    }
+    .section9 > h1 {
+        font-size: 1.8rem;
+    }
+    .section9A > h6{
+        font-size:0.7rem;
+    }
+    .sec10-inp{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .sec10-inp1{
+        height: 130px;
+        width: 65%;
+    }
+    .section10 > h1 {
+        font-size:2rem;
+    }
+    .sec10-btn1{
+        position: absolute;
+        top: 410px;
+        right: 90px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .sec10-inp1{
+        height: 130px;
+        width: 75%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .table-heading{
+        font-size: 0.6rem;
+    }
+    .table-content{
+        font-size: 0.4rem;
+    }
+    .section7 > h1 {
+        font-size: 1.5rem !important;
+    }
+    .section8 > h1 {
+        font-size: 1.7rem;
+    }
+    .sec8-dis > img{
+        height: 45%;
+    }
+    .sec8-dis2 > p{
+        padding-left: 5px;
+        margin-top: 30px;
+        font-size: 0.5rem;
+    }
+    .sec8-dis2 > h6{
+        font-size: 0.8rem;
+        padding-left: 5px;   
+    }
+    .sec8-dis2 > img{
+        padding-left: 5px;
+    }
+    .section9 > h1 {
+        font-size: 1.7rem;
+    }
+    .sec10-inp{
+        height: 40px;
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .sec10-inp1{
+        height: 130px;
+        width: 90%;
+    }
+    .section10 > h1 {
+        font-size:1.7rem;
+    }
+    .sec10-btn1{
+        position: absolute;
+        top: 410px;
+        right: 50px;
+    }
+}

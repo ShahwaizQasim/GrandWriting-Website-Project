@@ -66,6 +66,42 @@
 .pages_name > ul > li > a:hover {
   color: var(--text-color1);
 }
+.sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: var(--background);
+  box-shadow: -10px 0px 10px rgba(0,0,0,0.1);
+  display: none;
+}
+.sidebar > ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column; 
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar > ul > li {
+  list-style: none;
+}
+.sidebar > ul > li > a {
+  color: var(--text-color2);
+  font-family: var(--font-family);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.2s;
+}
+.sidebar > ul > li > a:hover {
+  color: var(--text-color1);
+}
+.menu-button{
+  display: none;
+}
+
 .buttons {
   height: 60px;
   display: flex;
@@ -178,10 +214,10 @@
 }
 .slider-btn1 {
   height: 45px;
-  width: 200px;
   background-color: var(--text-color4);
   border-radius: 8px;
   color: var(--text-color2);
+  padding-inline: 20px;
   font-family: var(--font-family);
   border: 2px solid var(--text-color3);
   font-weight: 600;
@@ -233,7 +269,6 @@
 /* before & after for button 2 */
 .slider-btn2 {
   height: 45px;
-  width: 170px;
   background-color: transparent;
   border-radius: 8px;
   color: var(--text-color4);
@@ -242,6 +277,7 @@
   font-size: 0.9rem;
   position: relative;
   overflow: hidden;
+  padding-inline: 20px;
   z-index: 1;
   font-weight: 500;
   transition: 0.4s;
@@ -288,10 +324,10 @@
 
 .slider2 {
   height: auto;
-  width: 840px;
   background-color: var(--text-color4);
   border-radius: 40px 20px 0px 0px;
   margin-top: 20px !important;
+  padding-inline: 40px;
 }
 .slider2 > h5 {
   text-align: center;
@@ -472,7 +508,7 @@
 
 .section2B > .slider-btn1 {
   height: 35px;
-  width: 200px;
+  padding-inline: 20px;
   background-color: var(--text-color4);
   border-radius: 8px;
   color: var(--text-color2);
@@ -527,7 +563,7 @@
 
 .section2B > .slider-btn2 {
   height: 35px;
-  width: 150px;
+  padding-inline: 20px;
   background-color: transparent;
   border-radius: 8px;
   color: var(--text-color4);
@@ -623,13 +659,14 @@
   position: relative;
 }
 .section3-1 {
-  height: 200px;
+  height: auto;
+  padding-bottom: 20px;
   border: 1px solid var(--border-color);
   border-radius: 2px;
   display: flex;
   flex-direction: column;
   padding-top: 40px;
-  padding-left: 50px !important;
+  padding-left: 80px !important;
   padding-right: 20px !important;
 }
 .section3-1 > h6 {
@@ -646,19 +683,20 @@
   width: 180px;
   position: absolute;
   top: 25px;
-  left: 5px;
+  left: 25px;
 }
 .section3A-image > img {
   height: 100%;
 }
 .section3-2 {
-  height: 200px;
+  height: auto;
   border: 2px solid var(--text-color1);
   border-radius: 2px;
   display: flex;
   flex-direction: column;
   padding-top: 40px;
-  padding-left: 50px !important;
+  padding-bottom: 20px;
+  padding-left: 70px !important;
   padding-right: 20px !important;
 }
 .section3-2 > h6 {
@@ -860,12 +898,12 @@
   text-align: center;
   font-size: 0.7rem;
   margin-top: 15px;
+  padding-inline: 250px;
 }
 
 .sec5-btn1 {
   height: 30px;
-  width: 100px;
-  background-color: var(--text-color4);
+  background-color: var(--text-color3);
   border-radius: 8px;
   color: var(--text-color4);
   font-family: var(--font-family);
@@ -875,6 +913,7 @@
   position: relative;
   z-index: 1; /* positive number se upler wala background piche chala jata   */
   overflow: hidden;
+  padding-inline: 10px;
   transition: 0.4s;
 }
 /* before & after for button 1*/
@@ -883,16 +922,16 @@
   content: "";
   height: 100%;
   width: 100%;
-  background-color: var(--text-color3);
+  background-color: var(--text-color4);
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  transform: translateX(-50%);
+  transform: translateX(-100%);
   transition: 0.6s;
 }
 .sec5-btn1:hover::before {
-  transform: translateX(-100%);
+  transform: translateX(-50%);
 }
 
 /* after bad me */
@@ -900,16 +939,16 @@
   content: "";
   height: 100%;
   width: 100%;
-  background-color: var(--text-color3);
+  background-color: var(--text-color4);
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  transform: translateX(50%);
+  transform: translateX(100%);
   transition: 0.6s;
 }
 .sec5-btn1:hover::after {
-  transform: translateX(100%);
+  transform: translateX(50%);
 }
 .sec5-btn1:hover {
   color: var(--text-color3);
@@ -918,8 +957,8 @@
 }
 .sec5-btn2 {
   height: 30px;
-  width: 100px;
-  background-color: var(--text-color4);
+  padding-inline: 10px;
+  background-color: var(--text-color2);
   border-radius: 8px;
   color: var(--text-color4);
   font-family: var(--font-family);
@@ -937,16 +976,16 @@
   content: "";
   height: 100%;
   width: 100%;
-  background-color: var(--text-color2);
+  background-color: var(--text-color4);
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  transform: translateX(-50%);
+  transform: translateX(-100%);
   transition: 0.6s;
 }
 .sec5-btn2:hover::before {
-  transform: translateX(-100%);
+  transform: translateX(-50%);
 }
 
 /* after bad me */
@@ -954,16 +993,16 @@
   content: "";
   height: 100%;
   width: 100%;
-  background-color: var(--text-color2);
+  background-color: var(--text-color);
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  transform: translateX(50%);
+  transform: translateX(100%);
   transition: 0.6s;
 }
 .sec5-btn2:hover::after {
-  transform: translateX(100%);
+  transform: translateX(50%);
 }
 .sec5-btn2:hover {
   color: var(--text-color2);
@@ -1133,10 +1172,9 @@
 }
 .sec6-img{
   height: 60px;
-  width: 180px;
   position: absolute;
   top: 110px;
-  right: 30px;
+  right: 0px;
 }
 .sec6-img > img{
   height: 75%;
@@ -1144,10 +1182,10 @@
 
 /* section 7 */
 .c-f9{
-  height: 500px;
+  height: auto;
 }
 .section7{
-  height: 500px;
+  height: auto;
   padding-block: 40px;
   position: relative;
 }
@@ -1185,6 +1223,7 @@
   z-index: 1; /* positive number se upler wala background piche chala jata   */
   overflow: hidden;
   transition: 0.4s;
+  margin-top: 15px;
 }
 /* before & after for button 1*/
 
@@ -1222,7 +1261,7 @@
 }
 .sec7-btn1:hover {
   color: var(--text-color4);
-  border-color: var(--text-color2);
+  border-color: var(--text-color2) !important;
   cursor: pointer;
 }
 
@@ -1238,6 +1277,7 @@
   font-weight: 600;
   margin-left: 25px;
   font-size: 0.8rem;
+  margin-top: 15px;
   position: relative;
   z-index: 1; /* positive number se upler wala background piche chala jata   */
   overflow: hidden;
@@ -1308,31 +1348,29 @@
 /* Section 8 */
 
 .c-f10{
-  height: 600px;
+  height: auto;
   background-image: url(./Assets/img/sec8-slider.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 50px;
+  padding-block: 50px;
 }
 .section8 > h5{
   font-family: var(--font-family);
   color: var(--text-color4);
   text-align: center;
-  padding-top: 50px;
 }
 .section8 > h1 {
   font-family: var(--font-family);
   color: var(--text-color4);
   text-align: center;
   font-weight: 600;
-  margin-top: 15px;
 }
 .section8A{
   display: flex;
 }
 .sec8-dis{
-  height: 350px;
+  height: 250px;
   display: flex;
   column-gap: 50px;
 }
@@ -1340,7 +1378,7 @@
   height: 100%;
 }
 .sec8-dis2{
-  height: 350px;
+  height: auto;
 }
 .sec8-dis2 > p{
   font-family: var(--font-family);
@@ -1348,7 +1386,6 @@
   color: var(--text-color4);
   font-size: 0.8rem;
   padding-left: 25px;
-  padding-right: 0px;
 }
 .sec8-dis2 > h6{
   font-family: var(--font-family);
@@ -1357,7 +1394,7 @@
   margin-top: 20px;
 }
 .sec8-dis2 > img{
-  margin-left: 25px;
+  padding-left: 25px;
   height: 25px;
   margin-top: 10px;
 }
@@ -1404,21 +1441,25 @@
 }
 .c-f12{
     height: auto;
-    background-image: url(./Assets/img/sec10-solider.png);
+    background-image: url(./Assets/img/sec10-slider.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding-block: 25px;
     position: relative;
-    padding-bottom: 100px;
+    /* padding-bottom: 120px; */
 
+}
+.section10{
+  height: auto;
+  padding-bottom: 80px;
 }
 .section10 > h1 {
   font-family: var(--font-family);
   color: var(--text-color4);
   text-align: center;
   font-weight: 500;
-  margin-top: 35px;
+  padding-top: 35px;
 }
 .section10 > h1 > span {
   color: var(--text-color1);
@@ -1436,6 +1477,7 @@
   background-color: transparent;
   font-size: 0.9rem;
   margin-top: 20px;
+  margin-left: 10px;
   color: var(--text-color4);
 }
 .sec10-input::placeholder{
@@ -1457,6 +1499,7 @@
   background-color: transparent;
   font-size: 0.8rem;
   margin-top: 20px;
+  margin-left: 12px;
   color: var(--text-color4);
 }
 .sec10-inp1::placeholder{
@@ -1477,12 +1520,13 @@
 /* footer */
 
 .c-f13{
-  height: 500px;
+  height: auto;
   background-image: url(./Assets/img/sec11-footer.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  padding-bottom: 40px;
 }
 .footerA{
   height: auto;
