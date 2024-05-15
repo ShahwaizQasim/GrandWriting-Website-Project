@@ -7,3 +7,5 @@ function openNav(){
 function hideNav(){
     sidebar1.style.display = 'none';
 }
+
+ 

@@ -400,7 +400,6 @@
         right: 50px;
     }
     .sidebar{
-        height: 100%;
         width: 100%;
     }
     .table-heading{
@@ -429,5 +428,9 @@
     }
     .sec7-btn2 {
         width: 80%;
+    }
+    .section1 > p {
+        padding-inline: 5px;
+        font-size: 0.6rem;
     }
 }
