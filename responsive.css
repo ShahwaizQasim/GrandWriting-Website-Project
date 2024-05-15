@@ -208,6 +208,11 @@
     }
     .section9A > h6{
         font-size:.9rem;
+        height: auto;
+        padding-block: 10px;
+    }
+    .section9A > h6 > img{
+        height: 20px;
     }
     .sec10-inp{
         width: 90%;
@@ -341,6 +346,9 @@
     .sec5-btn2 {
         font-size: 0.4rem;
     }
+    .sec3-dis1 {
+        height: 400px;
+    }
 }
 @media screen and (max-width: 400px) {
     .table-heading{
@@ -373,9 +381,9 @@
     .section9 > h1 {
         font-size: 1.7rem;
     }
-    .sec10-inp{
+    .sec10-input{
         height: 40px;
-        width: 80%;
+        width: 90%;
         margin-top: 20px;
         margin-left: 0px;
     }
@@ -409,5 +417,17 @@
     }
     .sec3-dis1 {
         height: 300px;
+    }
+    .logo {
+        width: 90%;
+    }
+    .sec4-dis {
+        width: 95%;
+    }
+    .sec7-btn1 {
+        width: 80%;
+    }
+    .sec7-btn2 {
+        width: 80%;
     }
 }

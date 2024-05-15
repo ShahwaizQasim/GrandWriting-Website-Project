@@ -27,7 +27,7 @@
    background-color: var(--text-color3);
 }
 
-.scroll-watcher{
+/* .scroll-watcher{
   height: 5px;
   width: 100%;
   position: fixed;
@@ -42,7 +42,7 @@
 
 @keyframes scrollwatcher{
   to { scale: 1 1; }
-}
+} */
 
 /* navbar */
 .c-f1 {
