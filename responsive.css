@@ -60,10 +60,25 @@
     .sec6-img{
         display: none;
       }
-    }
     .visa-country{
        display: none;
     }
+    .section3-1 {
+        padding-left: 100px !important;
+     }
+     .section3-2 {
+         padding-left: 100px !important;
+     }
+     .section3A-image {
+         height: 180px;
+         width: 160px;
+         position: absolute;
+         left: 5px;
+     }
+     .section3A-image {
+        height: 50%;
+     }
+}
 @media screen and (max-width: 840px) {
     .slider1 > h1 {
         font-size: 2.2rem;
@@ -131,6 +146,21 @@
     .footerC > ul > li > .footer-img{
         margin-left: 0;
     }
+    .section3-1 {
+        padding-left: 80px !important;
+     }
+     .section3-2 {
+         padding-left: 80px !important;
+     }
+     .section3A-image {
+         height: 180px;
+         width: 160px;
+         position: absolute;
+         left: 5px;
+     }
+     .section3A-image {
+        height: 90%;
+     }
 }
 @media screen and (max-width:760px){
     .sec10-inp{
@@ -154,6 +184,30 @@
     .slider-btn3 {
         margin-top: 15px;
     }
+    .section3-1 {
+        padding-left: 100px !important;
+     }
+     .section3-2 {
+         padding-left: 100px !important;
+     }
+     .section3A-image {
+         height: 180px;
+         width: 160px;
+         position: absolute;
+         left: 5px;
+     }
+     .section3A-image {
+        height: 90%;
+     }
+     .sec8-dis{
+        height: 350px;
+        width: 300px;
+        position: relative;
+        left: 100px;
+      }
+      .sec8-dis > img{
+        height: 90%;
+      }
 }
 @media screen and (max-width:650px){
     .slider2 > center > form > input {
@@ -188,9 +242,7 @@
     .section7A{
         padding-block: 50px;
     }
-    .sec8-dis > img{
-        height: 75%;
-    }
+    
     .sec8-dis2 > p{
         padding-left: 10px;
         margin-top: 30px;
@@ -221,6 +273,30 @@
         height: 130px;
         width: 55%;
     }
+    .section3-1 {
+        padding-left: 100px !important;
+     }
+     .section3-2 {
+         padding-left: 100px !important;
+     }
+     .section3A-image {
+         height: 180px;
+         width: 160px;
+         position: absolute;
+         left: 5px;
+     }
+     .section3A-image {
+        height: 80%;
+     }
+     .sec8-dis{
+        height: 350px;
+        width: 300px;
+        position: relative;
+        left: 80px;
+      }
+      .sec8-dis > img{
+        height: 100%;
+      }
     
 }
 @media screen and (max-width: 500px) {
@@ -274,7 +350,7 @@
         font-size: 1.5rem !important;
     }
     .sec8-dis{
-        height: 200px;
+        height: 250px;
     }
     .section8 > h1 {
         font-size: 1.7rem;
@@ -283,7 +359,7 @@
         font-size: 2rem;
     }
     .sec8-dis > img{
-        height: 55%;
+        height: 100%;
     }
     .sec8-dis2 > p{
         padding-left: 5px;
@@ -318,6 +394,22 @@
         top: 410px;
         right: 90px;
     }
+    .section3-1 {
+        padding-left: 100px !important;
+     }
+     .section3-2 {
+         padding-left: 100px !important;
+     }
+     .section3A-image {
+         height: 180px;
+         width: 160px;
+         position: absolute;
+         top: 25px;
+         left: 5px;
+     }
+     .section3A-image {
+        height: 70%;
+     }
 }
 @media screen and (max-width: 430px) {
     .sec10-inp1{
@@ -363,9 +455,15 @@
     .section8 > h1 {
         font-size: 1.7rem;
     }
-    .sec8-dis > img{
-        height: 45%;
-    }
+    .sec8-dis{
+        height: 250px;
+        width: 200px;
+        position: relative;
+        left: 40px;
+      }
+      .sec8-dis > img{
+        height: 100%;
+      }
     .sec8-dis2 > p{
         padding-left: 5px;
         margin-top: 30px;
@@ -433,4 +531,20 @@
         padding-inline: 5px;
         font-size: 0.6rem;
     }
+    .section3-1 {
+        padding-left: 100px !important;
+     }
+     .section3-2 {
+         padding-left: 100px !important;
+     }
+     .section3A-image {
+         height: 180px;
+         width: 160px;
+         position: absolute;
+         left: 5px;
+     }
+     .section3A-image {
+        height: 50%;
+     }
+
 }
